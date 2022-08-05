@@ -1,0 +1,33 @@
+[
+    {
+        "title" : "Presentation" ,
+        "content" : [
+            "I'm" , "Full-stack web developer"
+        ]
+    } , 
+
+    {
+        "title" : "About Me" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Education" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Skill Set" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Portfolio" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Contact" ,
+        "content" : {}
+    }
+]

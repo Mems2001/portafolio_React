@@ -1,0 +1,33 @@
+[
+    {
+        "title" : "Presentación" ,
+        "content" : [
+            "Soy" , "Desarrollador web full-stack"
+        ]
+    } , 
+
+    {
+        "title" : "Acerca de Mi" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Formación" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Habilidades" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Portafolio" ,
+        "content" : {}
+    } ,
+
+    {
+        "title" : "Contacto" ,
+        "content" : {}
+    }
+]
