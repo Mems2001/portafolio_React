@@ -223,9 +223,19 @@ li {
 
 .idiomas {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1vh;
+  left: 1vh;
   z-index: 2;
+}
+
+.idiomas button {
+  background-color: transparent;
+  border: none;
+  color: var(--lcolor-8);
+}
+
+.idiomas button:hover {
+  cursor: pointer;
 }
 
 .titles {

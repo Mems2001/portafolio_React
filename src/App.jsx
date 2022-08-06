@@ -21,8 +21,8 @@ function App() {
     <header id="navegador1">
 
         <span className='idiomas'>
-          <button onClick={cambiarIdiomaS}>Español</button>
-          <button onClick={cambiarIdiomaE}>English</button>
+          <button className='peque' onClick={cambiarIdiomaS}>Español</button>
+          <button className='peque' onClick={cambiarIdiomaE}>English</button>
         </span>  
 
         <nav className='navegador1'>
