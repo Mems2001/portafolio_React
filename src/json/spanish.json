@@ -8,17 +8,39 @@
 
     {
         "title" : "Acerca de Mi" ,
-        "content" : {}
+        "content" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad voluptatibus eligendi quae magni! Nemo eum, voluptatem illum ipsam libero consectetur reprehenderit facere modi, eligendi cumque dicta atque vel. Totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad voluptatibus eligendi quae magni! Nemo eum, voluptatem illum ipsam libero consectetur reprehenderit facere modi, eligendi cumque dicta atque vel. Totam."
     } ,
 
     {
         "title" : "Formación" ,
-        "content" : {}
+        "content" : {
+            "uba" : [
+                "Universidad de Buenos Aires" , "Filosofía" , "2019-actualidad" , "./src/img/BALogo.png"
+            ] ,
+            "academlo" : [
+                "Academlo" , "Desarrollador Web Full-stack" , "2022-2023" , "./src/img/logo_academlo2.png"
+            ]
+        }
     } ,
 
     {
         "title" : "Habilidades" ,
-        "content" : {}
+        "content" : {
+            "web" : {
+                "title" : "Desarrollo Web" 
+            } , 
+            "lang" : {
+                "title" : "Idiomas" ,
+                "content" : {
+                    "spanish" : [
+                        "Español" , "Nativo"
+                    ] ,
+                    "english" : [
+                        "Inglés" , "Avanzado"
+                    ]
+                }
+            }
+        }
     } ,
 
     {
