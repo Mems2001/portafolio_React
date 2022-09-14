@@ -3,6 +3,7 @@ import spanish from "./json/spanish.json"
 import english from "./json/english.json"
 import './App.css'
 import EdCard from './components/EdCard'
+import Portafolio from './components/Portafolio'
 
 function App() {
 
@@ -126,13 +127,7 @@ function App() {
       
     </section>
 
-    <section id='portafolio'>
-      
-      <div className='titles'>
-       <h2>{language[4].title}</h2> 
-      </div>
-      
-    </section>
+    <Portafolio language={language} />
 
     <section id='contacto'>
       
