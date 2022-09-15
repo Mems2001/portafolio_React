@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 
 const Portafolio = ({language}) => {
 
-  // console.log(projects)
+  console.log(projects)
 
   return (
     <section id='portafolio'>
