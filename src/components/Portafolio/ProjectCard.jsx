@@ -42,6 +42,11 @@ const ProjectCard = ({project}) => {
                     )}</span>
                 </div>
 
+                <div>
+                    <a>git</a>
+                    <a>netlify</a>
+                </div>
+
             <button onClick={hideDet} >X</button>
             </article>
         </div>
