@@ -1,0 +1,33 @@
+[
+
+    {
+        "id": 1 ,
+        "name": "entregable6" ,
+        "languages": [ "hmtl" , "css" , "javaScript" ] ,
+        "compatibility": [ "desktop PC" , "mobile" , "tablet" , "laptop" ] ,
+        "images": [ "img/entregable6.png" ]
+    } ,
+
+    {
+        "id": 2 ,
+        "name": "entregable5" ,
+        "languages": [ "hmtl" , "css" , "javaScript" ] ,
+        "compatibility": [ "desktop PC" , "mobile" , "tablet" , "laptop" ] ,
+        "images": [ "img/entregable5-prov.png" ]
+    } ,
+
+    {   "id": 3 ,
+        "name": "entregable3" ,
+        "languages": [ "hmtl" , "css" , "javaScript" ] ,
+        "compatibility": [ "desktop PC" , "laptop" ] ,
+        "images": [ "img/entregable3-prov.png" ]
+    } ,
+
+    {   "id": 4,
+        "name": "entregable2" ,
+        "languages": [ "hmtl" , "css" , "javaScript" ] ,
+        "compatibility": [ "desktop PC" , "laptop" ] ,
+        "images": [ "img/entregable2.png" ]
+    }
+
+]
