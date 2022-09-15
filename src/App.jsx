@@ -2,8 +2,9 @@ import { useState } from 'react'
 import spanish from "./json/spanish.json"
 import english from "./json/english.json"
 import './App.css'
+import './styles/Portafolio.css'
 import EdCard from './components/EdCard'
-import Portafolio from './components/Portafolio'
+import Portafolio from './components/Portafolio/Portafolio.jsx'
 
 function App() {
 
