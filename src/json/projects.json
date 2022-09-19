@@ -5,7 +5,11 @@
         "name": "entregable6" ,
         "languages": [ "hmtl" , "css" , "javaScript" ] ,
         "compatibility": [ "desktop PC" , "mobile" , "tablet" , "laptop" ] ,
-        "images": [ "img/entregable6.png" ]
+        "images": [ "img/entregable6.png" , "img/entregable6(2).png" , "img/entregable6(3).png" , "img/entregable6(4).png" , "img/entregable6(5).png" ] ,
+        "links": {
+            "gitHub": "https://github.com/Mems2001/reactEntregable6" ,
+            "netlify": "https://entregable6-mems.netlify.app/"
+        }
     } ,
 
     {
@@ -13,21 +17,33 @@
         "name": "entregable5" ,
         "languages": [ "hmtl" , "css" , "javaScript" ] ,
         "compatibility": [ "desktop PC" , "mobile" , "tablet" , "laptop" ] ,
-        "images": [ "img/entregable5-prov.png" ]
+        "images": [ "img/entregable5-prov.png" , "img/entregable5(2).png" , "img/entregable5(3).png" , "img/entregable5(4).png" ] ,
+        "links": {
+            "gitHub": "https://github.com/Mems2001/reactEntregable5" ,
+            "netlify": "https://entregable5-mems.netlify.app/"
+        }
     } ,
 
     {   "id": 3 ,
         "name": "entregable3" ,
         "languages": [ "hmtl" , "css" , "javaScript" ] ,
         "compatibility": [ "desktop PC" , "laptop" ] ,
-        "images": [ "img/entregable3-prov.png" ]
+        "images": [ "img/entregable3-prov.png" , "img/entregable3(2).png" ] ,
+        "links": {
+            "gitHub": "https://github.com/Mems2001/reactEntregable3" ,
+            "netlify": "https://entregable3-mems.netlify.app/"
+        }
     } ,
 
     {   "id": 4,
         "name": "entregable2" ,
         "languages": [ "hmtl" , "css" , "javaScript" ] ,
         "compatibility": [ "desktop PC" , "laptop" ] ,
-        "images": [ "img/entregable2.png" ]
+        "images": [ "img/entregable2.png" ] ,
+        "links": {
+            "gitHub": "https://github.com/Mems2001/reactEntregable2" ,
+            "netlify": "https://entregable2-mems.netlify.app/"
+        }
     }
 
 ]

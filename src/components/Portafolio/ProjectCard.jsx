@@ -4,6 +4,20 @@ const ProjectCard = ({project}) => {
 
     const [projectDet, setProjectDet] = useState(false)
 
+    const [imgNum, setImgNum] = useState(0)
+
+    const prevImg = () => {
+        if ( imgNum > 0 ) {
+            setImgNum ( imgNum -1 )
+        }
+    }
+
+    const nextImg = () => {
+        if( imgNum < project.images.length - 1) {
+        setImgNum ( imgNum + 1 )
+        }
+    }
+
     const showDet = () => {
         setProjectDet(true)
     }
@@ -22,11 +36,13 @@ const ProjectCard = ({project}) => {
             <div className='backGround'></div>
             <article className='articleDetails'>
 
-                <div>
-                    <img className='hiddenImg' src={project.images[0]} />
+                <div className='hiddenImgsCont'>
+                    <button className='imgBtn cl7' onClick={prevImg}><i className="fa-solid fa-angle-left"></i></button>
+                    <img className='hiddenImg' src={project.images[imgNum]} />
+                    <button className='imgBtn cl7' onClick={nextImg}><i className="fa-solid fa-angle-right"></i></button>
                 </div>
                 <div className='articleBody'>
-                    <h3>{project.name}</h3>
+                    <h3 className='projectName'>{project.name}</h3>
                     <span className='langContainer'>
                         <h4>Languages:</h4>
                         {
@@ -40,14 +56,16 @@ const ProjectCard = ({project}) => {
                         {project.compatibility.map(
                         c => <span>{c}</span>
                     )}</span>
+
+                    <div className='linksCont'>
+                        <h4>Links:</h4>
+                        <a className='links' href={project.links.gitHub} target='_blank' ><i className="fa-brands fa-github"></i></a>
+                        <a className='links' href={project.links.netlify} target='_blank' ><i className="fa-solid fa-link"></i></a>
+                    </div>
                 </div>
 
-                <div>
-                    <a>git</a>
-                    <a>netlify</a>
-                </div>
 
-            <button onClick={hideDet} >X</button>
+            <button className='hideBtn' onClick={hideDet} ><i className="fa-solid fa-xmark"></i></button>
             </article>
         </div>
     </div>

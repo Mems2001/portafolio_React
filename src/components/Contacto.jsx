@@ -9,7 +9,7 @@ const Contacto = ({language}) => {
 
         if (data.email_contact != '') {
 
-        console.log(data)
+          console.log(data)
 
         const defaultForm = {
             name_contact : '' ,
@@ -17,7 +17,7 @@ const Contacto = ({language}) => {
             message_contact : ''
         }
 
-        const mail = 'mems2001code@gmail.com'
+        const mail = 'f609a4528a2cb85f2aff02129596cb96'
         const URL = `https://formsubmit.co/${mail}`
 
         window.fetch ( URL , {
@@ -30,7 +30,7 @@ const Contacto = ({language}) => {
                 data
             )})
             .then (function (data) {
-                console.log(data) ,
+                console.log(data),
                 reset (defaultForm)
             })
             .catch (function (err) {
