@@ -50,6 +50,20 @@
 
     {
         "title" : "Contact" ,
-        "content" : {}
+        "content" : {
+            "name": {
+                "title": "Name" ,
+                "placeholder": "What's your name?"
+            } ,
+            "email": {
+                "title": "email" ,
+                "placeholder": "Write your e-mail"
+            } ,
+            "message": {
+                "title": "Message" ,
+                "placeholder": "Tell me, how can i help you?"
+            } ,
+            "submit": "Submit"
+        }
     }
 ]

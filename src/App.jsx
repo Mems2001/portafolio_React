@@ -3,8 +3,10 @@ import spanish from "./json/spanish.json"
 import english from "./json/english.json"
 import './App.css'
 import './styles/Portafolio.css'
+import './styles/Contacto.css'
 import EdCard from './components/EdCard'
 import Portafolio from './components/Portafolio/Portafolio.jsx'
+import Contacto from './components/Contacto'
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
   }  
   const cambiarIdiomaE = () => {
     setlanguage (english)
-  }  
+  }
+
+  console.log (spanish)
 
   return (
     <>
@@ -130,13 +134,7 @@ function App() {
 
     <Portafolio language={language} />
 
-    <section id='contacto'>
-      
-      <div className='titles'>
-       <h2>{language[5].title}</h2> 
-      </div>
-      
-    </section>
+    <Contacto language={language} />
 
     </>
   )

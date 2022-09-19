@@ -1,0 +1,32 @@
+.formCont {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2vh;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLabel {
+    text-align: left;
+    width: 85%;
+}
+
+input {
+    background-color: var(--color-4);
+    color: var(--lcolor-1);
+    width: 85%;
+}
+
+textarea {
+    background-color: var(--color-4);
+    color: var(--lcolor-1);
+    width: 85%;
+}
+
+.submitBtn { 
+    width: 20%;
+    height: 10%;
+    border-radius: 2vw;
+}

@@ -50,6 +50,20 @@
 
     {
         "title" : "Contacto" ,
-        "content" : {}
+        "content" : {
+            "name": {
+                "title": "Nombre" ,
+            "placeholder": "Cuál es tu nombre?"
+            } ,
+            "email": {
+                "title": "e-mail" ,
+                "placeholder": "Escribe tu e-mail"
+            } ,
+            "message": {
+                "title": "Mensaje" ,
+                "placeholder": "Dime, cómo puedo ayudarte?"
+            } ,
+            "submit": "Enviar"
+        }
     }
 ]
