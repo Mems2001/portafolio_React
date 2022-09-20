@@ -55,6 +55,7 @@
   .lang-cont span:last-child {
     width: 55%;
   }
+
   .barraIdioma {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
@@ -129,4 +130,56 @@
       width: 90%;
     }
     
+  }
+
+  @media screen and (max-height:500px) {
+    
+    .hab-container {
+      display: flex;
+      flex-direction: row;
+      gap: 7vh;
+      margin-top: 5%;
+    }
+
+    .hab {
+      display: flex;
+      flex-direction: column;
+      height: 65vh;
+      width: 45vw;
+      padding: 3vw;
+    }
+
+    .hab-titles {
+      margin-top: 0;
+    }
+
+    .hab-container1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      margin-top: 2%;
+      margin-bottom: 4%;
+      column-gap: 6vw ;
+      row-gap: 5vh;
+    }
+
+    .hab-logo-cont {
+      height: 8vw;
+      width: 8vw;
+    }
+
+    .lang-cont {
+      height: 15vh;
+      flex-wrap: wrap;
+    }
+
+    .barraIdioma {
+      height: 25%;
+    }
+
+    .lang-cont span:last-child {
+      width: 95%;
+    }
+
   }
