@@ -426,6 +426,12 @@ li {
     height: 5vh;
   }
 
+  .navegador2 {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+  }
+
   .foto {
     height: 35vh;
     width: 35vh;
@@ -434,14 +440,58 @@ li {
     transition: all 0.3s ease-in-out;
   }
 
+  .pres-box {
+    box-shadow:0vw 1vw 2vw var(--color-5);
+  }
+
   .pres-box div:nth-child(1) {
-    top: 3%;
+    top: 2%;
     left: 15%;
   }
   
   .pres-box div:nth-child(3) {
     bottom: 7%;
     right: 10%;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+
+  .card1 {
+    height: 35vh;
+    width: 70vw;
+  }
+  
+  .card1 img {
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    top: 10%;
+  }
+  
+  .card1-body {
+    background-color: var(--color-5);
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+  }
+  
+  .card1-body-text {
+    text-align: center;
+    color: var(--lcolor-8);
   }
 
 }
