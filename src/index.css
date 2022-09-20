@@ -257,7 +257,7 @@ li {
   position: fixed;
   right: 0;
   justify-content:right ;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navegador1 .nav-btn-cont {
@@ -566,6 +566,16 @@ li {
   .pres-box div:nth-child(3) {
     bottom: 5%;
     right: 10%;
+  }
+
+  .card1 {
+    height: 60vh;
+    width: 30vw;
+  }
+
+  .card1-body {
+    height: 50%;
+    width: 100%;
   }
 
   #presentacion {
