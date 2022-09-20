@@ -14,7 +14,7 @@ const Habilidades = ({ language }) => {
               <span className='hab-logo-cont'><img className='hab-logo' src='https://cdn-icons-png.flaticon.com/512/5968/5968496.png'/></span>
               <span className='hab-logo-cont'><img className='hab-logo' src='https://cdn-icons-png.flaticon.com/512/29/29600.png'/></span>
               <span className='hab-logo-cont'><img className='hab-logo' src='https://cdn-icons-png.flaticon.com/512/1/1492.png'/></span>
-              <span className='hab-logo-cont'><img className='hab-logo' src='./src/img/reactLogo.png' /></span>
+              <span className='hab-logo-cont'><img className='hab-logo' src='logos/reactLogo.png' /></span>
             </div>
           </div>
 
