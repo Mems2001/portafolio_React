@@ -225,8 +225,7 @@ li {
 
 .idiomas {
   position: absolute;
-  top: 1vh;
-  left: 1vh;
+  left: 3vw;
   z-index: 2;
   display: flex;
   align-items: center;
@@ -270,6 +269,9 @@ li {
 }
 
 .navegador1 .nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 12vw;
   height: 100%;
   text-align: center;
@@ -438,8 +440,13 @@ li {
     height: 5vh;
   }
 
+  .idiomas {
+    left: 5vw;
+  }
+
   .navegador2 {
     height: 5vh;
+    width: 100vw;
     display: flex;
     align-items: center;
   }
@@ -510,12 +517,68 @@ li {
 
 @media screen and (max-height:500px) {
 
+  h2 {
+    padding-top: 3vh;
+  }
+
+  .peque {
+    font-size: 0.7rem;
+  }
+
+  .grande {
+    font-size: 1.4rem;
+  }
+
+  .muygrande {
+    font-size: 1.8rem;
+  }
+
   #navegador2 {
     display: none;
   }
 
   header {
     height: 8vh;
+  }
+
+  .navegador1 {
+    height: 8vh;
+  }
+
+  .specialCont {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .foto {
+    height: 60vh;
+    width: 60vh;
+    left: 5%;
+    top: 0%;
+  }
+
+  .pres-box div:nth-child(1) {
+    top: 0%;
+    left: 5%;
+  }
+  
+  .pres-box div:nth-child(3) {
+    bottom: 5%;
+    right: 10%;
+  }
+
+  #presentacion {
+    width: 60vw;
+    height: 91vh;
+  }
+
+  #acercaDeMi {
+    width: 40vw;
+    height: 91vh;
+  }
+
+  #acercaDeMi p {
+    font-size: 0.8rem;
   }
   
 }

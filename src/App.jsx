@@ -54,6 +54,8 @@ function App() {
 
     </header>
 
+    <div className='specialCont'>
+
     <section id="presentacion">
       
       <div className='pres-box'>
@@ -78,6 +80,8 @@ function App() {
       </div>
      
     </section>
+
+    </div>
 
     <section id='formacion'>
       
