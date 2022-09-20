@@ -22,6 +22,7 @@
   .hab-container1 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content:space-around;
     margin-top: 2%;
     margin-bottom: 4%;
@@ -92,4 +93,40 @@
     border-left: 0;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+  }
+
+  @media screen and (max-width:767px) {
+
+    .hab-container1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      column-gap: 0vw;
+      row-gap: 7vw;
+      margin-top: 2%;
+      margin-bottom: 4%;
+    }
+
+    .hab-container {
+      margin-top: 15%;
+    }
+    
+    .hab-logo-cont {
+      height: 28vw;
+      width: 28vw;
+    }
+
+    .lang-cont {
+      height: 6vh;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content:space-around;
+    }
+
+    .lang-cont span:last-child {
+      width: 90%;
+    }
+    
   }
