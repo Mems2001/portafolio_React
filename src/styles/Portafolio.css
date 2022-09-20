@@ -247,6 +247,10 @@
     .linksCont {
         justify-content: space-between;
     }
+    
+    .links {
+        transform: scale(2.5);
+    }
 
     .hideBtn {
         height: 3vh;

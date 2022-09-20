@@ -43,3 +43,11 @@ textarea {
     font-weight: 700;
     transition:all 0.2s ease ;
 }
+
+@media screen and (max-width:767px) {
+
+    .submitBtn {
+        bottom: 30%;
+    }
+    
+}

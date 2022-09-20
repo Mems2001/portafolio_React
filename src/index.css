@@ -192,6 +192,8 @@ header {
   position: relative;
   height: 6vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -226,6 +228,8 @@ li {
   top: 1vh;
   left: 1vh;
   z-index: 2;
+  display: flex;
+  align-items: center;
 }
 
 .idiomas button {
@@ -379,6 +383,10 @@ li {
 
 /* IDENTIFICADORES */
 
+#navegador2 {
+  display: none;
+}
+
 #presentacion {
   height: 60vh;
 }
@@ -405,6 +413,10 @@ li {
   
   #navegador1 {
     display: none;
+  }
+
+  #navegador2 {
+    display: flex;
   }
 
   #acercaDeMi {
@@ -494,4 +506,16 @@ li {
     color: var(--lcolor-8);
   }
 
+}
+
+@media screen and (max-height:500px) {
+
+  #navegador2 {
+    display: none;
+  }
+
+  header {
+    height: 8vh;
+  }
+  
 }
