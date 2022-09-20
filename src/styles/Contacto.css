@@ -3,7 +3,7 @@
     flex-direction: column;
     
     gap: 2vh;
-    margin-top: 5vh;
+    margin-top: 10vh;
     justify-content: center;
     align-items: center;
 }
@@ -32,7 +32,7 @@ textarea {
     border-radius: 2vw;
     cursor: pointer;
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     transition:all 0.2s ease ;
 }
 

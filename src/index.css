@@ -377,94 +377,6 @@ li {
   color: var(--lcolor-8);
 }
 
-.hab-container {
-  display: flex;
-  flex-direction: column;
-  gap: 7vh;
-  margin-top: 5%;
-}
-
-.hab-titles {
-  text-align: center;
-  color: var(--lcolor-5);
-}
-
-.hab {
-  display: flex;
-  flex-direction: column;
-  border: inset 2px var(--color-4);
-  border-radius: 15px;
-  height: fit-content;
-  padding: 1vh;
-}
-
-.hab-container1 {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  margin-top: 2%;
-  margin-bottom: 4%;
-}
-
-.hab-logo-cont {
-  display: grid;
-  height: 12vw;
-  width: 12vw;
-  align-items: center;
-  justify-items: center;
-  background-color: var(--color-3);
-  border-radius: 100%;
-  box-shadow: .5vw .5vw 1vw 1vw var(--color-1);
-}
-
-.hab-logo {
-  height: 70%;
-  width: 70%;
-}
-
-.lang-cont {
-  height: 6vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:space-around;
-}
-
-.lang-cont span:last-child {
-  width: 55%;
-}
-.barraIdioma {
-  display: grid;
-  grid-template-columns: repeat(4 , 1fr);
-  justify-self: center;
-  width: 80%;
-  height: 35%;
-  border-radius: 50px;
-  border: 1px var(--lcolor-2) solid;
-}
-
-.barraIdioma div:nth-child(1) {
-  background-color: var(--color-6);
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border: 4px solid var(--color-2);
-  
-}
-
-.barraIdioma div:nth-child(2) {
-  background-color: var(--color-6);
-  border: 4px solid var(--color-2);
-  width: 100%;
-  height: 100%;
-  border-left: 0;
-}
-
-.barraIdioma div:nth-child(3) {
-  background-color: var(--color-6);
-  border: 4px solid var(--color-2);
-  border-left: 0;
-}
-
 /* IDENTIFICADORES */
 
 #presentacion {
@@ -476,8 +388,60 @@ li {
 
 }
 
-
 #acercaDeMi p {
   text-align: justify;
   margin-top: 4%;
+}
+
+@media screen and (max-width: 767px) {
+
+  .grande {
+    font-size: 1.5rem;
+  }
+
+  .muygrande {
+    font-size: 2rem;
+  }
+  
+  #navegador1 {
+    display: none;
+  }
+
+  #acercaDeMi {
+    height: 35vh;
+  }
+
+  #acercaDeMi p {
+    text-align: justify;
+    margin-top: 4%;
+    font-size: 0.7rem;
+  }
+
+  section:not(#presentacion) {
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  header {
+    height: 5vh;
+  }
+
+  .foto {
+    height: 35vh;
+    width: 35vh;
+    left:0;
+    top: 5%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .pres-box div:nth-child(1) {
+    top: 3%;
+    left: 15%;
+  }
+  
+  .pres-box div:nth-child(3) {
+    bottom: 7%;
+    right: 10%;
+  }
+
 }
