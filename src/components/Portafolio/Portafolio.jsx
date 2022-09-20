@@ -13,11 +13,11 @@ const Portafolio = ({language}) => {
        <h2>{language[4].title}</h2> 
       </div>
 
-      <div className='projectsCont'>
+      {/* <div className='projectsCont'>
         {projects.map(
           project => <ProjectCard key={project.id} project={project} />
         )}
-      </div>
+      </div> */}
       
     </section>
   )
