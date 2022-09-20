@@ -258,3 +258,32 @@
     }
     
 }
+
+@media screen and (max-height:500px) {
+
+    .imgBtn {
+        height: 5vh;
+        width: 5vh;
+        margin: 4vh;
+    }
+
+    .articleDetails {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: 100vh;
+    }
+
+    .projectName {
+        margin-bottom: 0;
+    }
+
+    .hiddenImg {
+        height: 35vh;
+    }
+
+    .hideBtn {
+        height: 7vh;
+        width: 7vh;
+    }
+    
+}

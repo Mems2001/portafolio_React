@@ -51,3 +51,17 @@ textarea {
     }
     
 }
+
+@media screen and (max-height:500px) {
+
+    .formCont {
+        height: 60%;
+        margin-top: 3vh;
+    }
+
+    .submitBtn { 
+        height: 7%;
+        bottom: 8%;
+    }
+    
+}
