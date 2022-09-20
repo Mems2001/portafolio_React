@@ -15,10 +15,10 @@
         "title" : "Formación" ,
         "content" : {
             "uba" : [
-                "Universidad de Buenos Aires" , "Filosofía" , "2019-actualidad" , "../src/img/BALogo.png"
+                "Universidad de Buenos Aires" , "Filosofía" , "2019-actualidad" , "logos/BALogo.png"
             ] ,
             "academlo" : [
-                "Academlo" , "Desarrollador Web Full-stack" , "2022-2023" , "../src/img/logo_academlo2.png"
+                "Academlo" , "Desarrollador Web Full-stack" , "2022-2023" , "logos/logo_academlo2.png"
             ]
         }
     } ,

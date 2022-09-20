@@ -15,10 +15,10 @@
         "title" : "Education" ,
         "content" : {
             "uba" : [
-                "Universidad de Buenos Aires" , "Philosophy" , "2019-today" , "./src/img/BALogo.png"
+                "Universidad de Buenos Aires" , "Philosophy" , "2019-today" , "logos/BALogo.png"
             ] ,
             "academlo" : [
-                "Academlo" , "Full-stack web developer" , "2022-2023" , "./src/img/logo_academlo2.png"
+                "Academlo" , "Full-stack web developer" , "2022-2023" , "logos/logo_academlo2.png"
             ]
         }
     } ,
